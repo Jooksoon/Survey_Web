@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/*sidebar 섹션과 main섹션*/
+div.sidebar{
+	text-align: center;
+    background-color: #ccc;
+    width: 11%;
+} 
+div.main{
+    width: 87%;
+    margin-left:13%;
+    padding:1px 16px;
+}
+div.sidebar, div.main{            
+   position: fixed;
+   float: left;
+   height: 100%;
+   box-sizing: border-box;
+}
+
+/*>>>>>>>>>>>>>>>> sidebar 컴포넌트 디자인 <<<<<<<<<<<<<*/
+#mnm, #mns{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 8px 15px 8px 15px;
+    font-weight: bold;
+}/*회원관리와 설문관리 버튼을 섹션에 꽉 차도록 지정*/
+
+/*>>>>>>>>>>>>>>>> main 컴포넌트 디자인 <<<<<<<<<<<<<<<<*/
+/*searchbar 디자인*/
+div.searchbar{
+	text-align:center;
+	padding: 10px;
+}
+form.searchbar-form{
+	display:block;
+	box-sizing: border-box;
+}
+form.searchbar-form input[type=search] {        
+    padding: 10px;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid grey;
+    width: 40%;
+    background: #f1f1f1;
+}/* searchbar 검색창 부분 설정 */
+form.searchbar-form button {
+    width: 40px;
+    height: 40px;
+    padding: 0px;                                                                                                                                                                                                               
+    background: #ff745c;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+form.searchbar-form button:hover {
+    background: tomato;
+}/* submit버튼 설정 */
+form.searchbar-form::after {
+    content: "";
+    clear: both;
+    display: table;
+}/* 위치 초기화 */
+table.surveylist-table{
+	text-align:center;
+	width:100%;
+}/*설문목록 테이블*/
+th{
+	border: 1px solid black;
+}/*표 설정*/
+/*surveynav 디자인*/
+div.surveynav{
+	text-align:center;    
+}
+
+span{
+    padding:5px 10px;
+    background: #ddd;
+    margin:15px 5px;
+    border:1px solid #ccc;
+
+}
+span:hover{
+    background: #ccc;
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+ body {
+     background-color: #05c46b;
+     font-family: Verdana;
+     text-align: center;
+ }
+
+ form {
+     background-color: #fff;
+     max-width: 500px;
+     margin: 10px auto;
+     padding: 20px 20px;
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+ }
+
+ .form-control {
+     text-align: left;
+     margin-bottom: 25px;            
+
+ }
+
+ .form-control label {
+     display: block;
+     margin-bottom: 10px;            
+     font-size:15px;
+
+ }
+
+ .form-control input,
+ .form-control select,
+ .form-control textarea {
+     border: 1px solid #777;
+     border-radius: 2px;
+     font-family: inherit;
+     padding: 10px;
+     display: block;
+     width: 95%;       
+     font-size:12px;
+ }
+
+ .form-control input[type="radio"],
+ .form-control input[type="checkbox"] {
+     display: inline-block;
+     width: auto;
+ }
+
+#next-btn, #prev-btn{
+     background-color: #05c46b;
+     border: 1px solid #777;
+     border-radius: 2px;
+     font-family: inherit;
+     font-size: 15px;
+     padding: 5px 0px 5px 0px;
+     display: inline-block;
+     width: 30%;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     margin-left:10px;
+     margin-right:10px;
+     box-sizing:border-box;  
+ }
+ 
+ tr,td{
+ 	text-align:center;
+ 	vertical-align: middle;
+ }        
+ 
+ table #matrix-type-table{
+ 	text-align:center; 
+ 	vertical-align: middle;
+ }
+ 
+ div.questions{
+ 	padding-left:10px;
+ 	padding-right:10px
+ }
+ 
+ div.surveypaper-header{
+ 	width:100%;
+ 	height:50px;
+ }
+
+ div.surveypaper-footer{
+ 	text-align:center
+ }
+
+ div.progress{
+	width:200px;
+	float:right;
+	font-size:10px
+ }
+ div #progress-text{
+ 	margin-bottom:15px;
+ }
+ div #progress-behind{
+ 	width:100%;
+ 	height:10px;
+ 	background:#dedede
+ }
+ div #progress-front{
+ 	width:60%; 
+ 	height: 100%;
+ 	background:#5098e6;
+ }

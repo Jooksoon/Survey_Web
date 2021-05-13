@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+div.questions {
+	width: 600px;
+	background-color: #f4f5f5;
+}
+
+/* 질문 테이블 */
+table.question_table {
+	width: 600px;
+	height: 60px;
+}
+
+table.question_table tr {
+	width: 600px;
+	height: 60px;
+}
+
+table.question_table td.question_number {
+	width: 60px;
+	vertical-align: center;
+	padding: 4px 4px 8px 24px;
+}
+
+table.question_table input.question_title {
+	height: 30px;
+	width: 400px;
+}
+
+table.question_table select {
+	height: 30px;
+	width: 140px;
+}
+
+/* 옵션 테이블 */
+table.option_table {
+	width: 600px;
+}
+
+table.option_table tr {
+	width: 600px;
+	height: 60px;
+}
+
+table.option_table td.blank {
+	width: 40px;
+	text-align: center;
+}
+
+table.option_table input.option_content {
+	width: 420px;
+	height: 20px;
+}
+
+table.option_table td.create_delete_option {
+	text-align: center;
+}
+
+table.option_table td.create_delete_option button image {
+	width: 20px;
+	height: 20px;
+}
+
+body{
+	background:#4CAF50;
+}
+
+.form{
+	background:#FFFFFF;
+	max-width:600px;
+	margin: 10px auto 10px;
+	padding: 45px;
+	text-align:center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.container{
+	margin-top: 50px;
+}
+h3{
+	font-size:20px;
+}
+div.form{
+	text-align:center;
+}
+
+button.form_submit {
+	background: #1AAB8A;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 40px;
+	font-size: 1.6em;
+	padding: 0 2em;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+}
+
+button.form_submit:hover {
+	background: #fff;
+	color: #1AAB8A;
+}
+
+button.form_submit:before, button.form_submit:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #1AAB8A;
+	transition: 400ms ease all;
+}
+
+button.form_submit:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+
+button.form_submit:hover:before, button.form_submit:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
+}
